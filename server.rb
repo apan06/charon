@@ -216,7 +216,7 @@ class GHAapp < Sinatra::Application
       logger.debug "====================="
       additions = pull['additions']
       # Was this a success?
-      result = additions < 400 ? :success :failure # could also be :failure
+      result = additions < 400 ? :success : :failure # could also be :failure
       logger.debug "RESULT IS: #{result}"
 
       opts = {
