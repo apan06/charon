@@ -16,4 +16,4 @@ Currently running this from localhost - so yup it will fail 😅
 - https://developer.github.com/v3/checks/runs/#create-a-check-run - Github docs
 - http://octokit.github.io/octokit.rb/Octokit.html - Octokit docs
 - https://github.com/DEGoodmanWilson/excellent-ci - great example how to handle this
-- https://smee.io 
+- https://smee.io - Awesome thing for working with localhost
