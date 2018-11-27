@@ -205,7 +205,7 @@ class GHAapp < Sinatra::Application
       # return immediately. But for now we'll do a simulated CI process syncronously, and update the check run right here..
       pull_requests = result['pull_requests']
       pr = pull_requests[0]
-      logger.debug pr
+      logger.debug "Pull Request #{pr}"
       repo = pr['base']['repo']['id']
       pr_number = pr['number']
       logger.debug "Repo: #{repo} PR: #{pr_number}"
